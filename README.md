@@ -67,7 +67,7 @@ MyWebApp/
 ![Deployment Success](screenshot/deplyment-success.png)
 
 ###  2. GitHub Actions Success  
-![GitHub Actions](screenshot/github-action-success.png)
+![GitHub Actions](screenshot/github-action-sucess.png)
 
 ###  3. Azure Web App Overview  
 ![Azure Overview](screenshot/WebApp-overview.png)
