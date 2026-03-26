@@ -64,7 +64,7 @@ MyWebApp/
 ##  Screenshots
 
 ###  1. Deployment Success  
-![Deployment Success](screenshot/deployment-success.png)
+![Deployment Success](screenshot/Deployment-success.png)
 
 ###  2. GitHub Actions Success  
 ![GitHub Actions](screenshot/github-action-success.png)
