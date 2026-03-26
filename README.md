@@ -1,31 +1,17 @@
-# Azure Web App Deployment with GitHub Actions 
+#  Azure Web App Deployment with GitHub Actions 
 
-This project demonstrates a full end-to-end deployment of a .NET web application to Azure App Service using GitHub Actions for CI/CD. It showcases cloud engineering skills including application creation, version control, automation, and Azure resource management.
+This project demonstrates a complete cloud engineering workflow: building a .NET web application, hosting it on GitHub, automating deployments with GitHub Actions, and running the application live on Azure App Service.  
+It showcases real-world skills in CI/CD, Azure infrastructure, troubleshooting, and cloud deployment.
 
-##  Project Overview
-
-This project includes:
-
-- A .NET 8 Razor Web App created using the `dotnet new webapp` template  
-- Source code hosted on GitHub  
-- Automated CI/CD pipeline using GitHub Actions  
-- Deployment to Azure App Service  
-- Live website accessible publicly  
-- Documentation and screenshots of the full workflow  
-
----
 
 ##  Live Application
+ **URL:** webapp-jcd-ltd-gngxc6fjbydtevg5.westeurope-01.azurewebsites.net
 
-**URL:** webapp-jcd-ltd-gngxc6fjbydtevg5.westeurope-01.azurewebsites.net
 
----
+##  Tech Stack
 
-##  Technologies Used
-
-- **.NET 8 Web App**
+- **.NET 8 Razor Web App**
 - **C#**
-- **Razor Pages**
 - **Git & GitHub**
 - **GitHub Actions (CI/CD)**
 - **Azure App Service**
@@ -35,64 +21,91 @@ This project includes:
 
 ##  Project Structure
 
+MyWebApp/
+│   MyWebApp.csproj
+│   Program.cs
+│   appsettings.json
+│
+├── Pages/
+├── wwwroot/
+├── Properties/
+└── .github/workflows/azure-webapps.yml
+
+
 ---
 
-## 🔄 CI/CD Pipeline
+##  Architecture Diagram
+                          ┌──────────────────────────┐ 
+                          │        GitHub Repo        │
+                          │  (.NET Source Code + Git) │
+                          └──────────────┬────────────┘
+                                         │ Push
+                                         ▼
+                          ┌──────────────────────────┐
+                          │      GitHub Actions       │
+                          │  CI/CD Build & Deploy     │
+                          └──────────────┬────────────┘
+                                         │ Deploy to Azure
+                                         ▼
+        ┌──────────────────────────────────────────────────────────────┐
+        │                        Azure App Service                     │
+        │  - Hosts the .NET Web App                                    │
+        │  - Runs latest deployed version                              │
+        │  - Provides public HTTPS endpoint                            │
+        └───────────────┬──────────────────────────────────────────────┘
+                        │ Public URL
+                        ▼
+                ┌──────────────────────────┐
+                │     End User Browser     │
+                │  Accesses Live Web App   │
+                └──────────────────────────┘
 
-Every push to the `main` branch triggers:
-
-1. Build the .NET application  
-2. Publish the output  
-3. Deploy to Azure App Service  
-
-This ensures continuous delivery and automated deployments.
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
-###  1. Azure Deployment Center (Success)
+###  1. Deployment Success  
 ![Deployment Success](screenshots/deployment-success.png)
 
-###  2. GitHub Actions Pipeline (Success)
-![GitHub Actions](screenshots/github-actions-success.png)
+###  2. GitHub Actions Success  
+![GitHub Actions](screenshots/github-action-success.png)
 
-###  3. Azure Web App Overview
-![Azure Overview](screenshots/azure-overview.png)
+###  3. Azure Web App Overview  
+![Azure Overview](screenshots/WebApp-overview.png)
 
-###  4. Live Website
-![Live Website](screenshots/homepage.png)
+###  4. Edited Web App Version  
+![Edited Web App](screenshots/edited-Webapp-version.png)
 
-###  5. Repository Structure
-![Repo Structure](screenshots/repo-structure.png)
+###  5. Web App URL Overview  
+![Web App URL](screenshots/webapp-URL overview.png)
 
 ---
 
-## 🧠 What I Learned
+##  What I Learned
 
-- How to create a .NET web application  
+- How to create and structure a .NET web application  
 - How to use Git and GitHub for version control  
-- How to configure GitHub Actions for CI/CD  
+- How to configure GitHub Actions for automated CI/CD  
 - How to deploy applications to Azure App Service  
 - How to troubleshoot build and deployment errors  
-- How cloud workflows operate in real environments  
+- How cloud workflows operate in real production environments  
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - Add a database (Azure SQL or Cosmos DB)  
 - Add authentication (Microsoft Entra ID)  
-- Add logging and monitoring with Azure Monitor  
-- Add API endpoints
-- Add staging slot
+- Add logging and monitoring with Azure Monitor
+- Add a staging slot
+- Add API endpoints  
 - Build a more advanced UI  
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Norita**  
-Cloud Engineer in training | Azure-focused | Based in Switzerland  
-
+Cloud Engineer/Cloud Administrator in training | Azure-focused | Based in Switzerland  
 
