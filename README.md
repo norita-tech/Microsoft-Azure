@@ -17,7 +17,6 @@ It showcases real-world skills in CI/CD, Azure infrastructure, troubleshooting, 
 - **Azure App Service**
 - **Azure Portal**
 
----
 
 ##  Project Structure
 
@@ -32,7 +31,7 @@ MyWebApp/
 └── .github/workflows/azure-webapps.yml
 
 
----
+
 
 ##  Architecture Diagram
                           ┌──────────────────────────┐ 
@@ -61,26 +60,24 @@ MyWebApp/
                 └──────────────────────────┘
 
 
----
 
 ##  Screenshots
 
 ###  1. Deployment Success  
-![Deployment Success](screenshots/deployment-success.png)
+![Deployment Success](screenshot/deployment-success.png)
 
 ###  2. GitHub Actions Success  
-![GitHub Actions](screenshots/github-action-success.png)
+![GitHub Actions](screenshot/github-action-success.png)
 
 ###  3. Azure Web App Overview  
-![Azure Overview](screenshots/WebApp-overview.png)
+![Azure Overview](screenshot/WebApp-overview.png)
 
 ###  4. Edited Web App Version  
-![Edited Web App](screenshots/edited-Webapp-version.png)
+![Edited Web App](screenshot/edited-Webapp-version.png)
 
 ###  5. Web App URL Overview  
-![Web App URL](screenshots/webapp-URL overview.png)
+![Web App URL](screenshot/webapp-URL overview.png)
 
----
 
 ##  What I Learned
 
@@ -91,7 +88,6 @@ MyWebApp/
 - How to troubleshoot build and deployment errors  
 - How cloud workflows operate in real production environments  
 
----
 
 ##  Future Improvements
 
@@ -102,7 +98,7 @@ MyWebApp/
 - Add API endpoints  
 - Build a more advanced UI  
 
----
+
 
 ##  Author
 
