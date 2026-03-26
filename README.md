@@ -34,6 +34,6 @@ This project includes:
 ---
 
 ##  Project Structure
-![Deployment Success](screenshots/Deplyment Center sucess.png)
+![Deployment Center sucess](screenshots/Deplyment Center sucess.png)
 
 
