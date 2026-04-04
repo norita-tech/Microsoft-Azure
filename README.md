@@ -64,19 +64,19 @@ MyWebApp/
 ##  Screenshots
 
 ###  1. Deployment Success  
-![Deployment Success](screenshot/deplyment-success.png)
+![Deployment Success](screenshots-webapp/deplyment-success.png)
 
 ###  2. GitHub Actions Success  
-![GitHub Actions](screenshot/github-action-sucess.png)
+![GitHub Actions](screenshots-webapp/github-action-sucess.png)
 
 ###  3. Azure Web App Overview  
-![Azure Overview](screenshot/WebApp-overview.png)
+![Azure Overview](screenshots-webapp/WebApp-overview.png)
 
 ###  4. Edited Web App Version  
-![Edited Web App](screenshot/edited-Webapp-version.png)
+![Edited Web App](screenshots-webapp/edited-Webapp-version.png)
 
 ###  5. Web App URL Overview  
-![Webapp URL](screenshot/webapp-URL overview.png)
+![Url Overview](screenshots-webapp/url overview.png)
 
 
 ##  What I Learned
