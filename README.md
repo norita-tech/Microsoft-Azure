@@ -76,7 +76,7 @@ MyWebApp/
 ![Edited Web App](screenshot/edited-Webapp-version.png)
 
 ###  5. Web App URL Overview  
-![Webapp URL Overview](screenshot/webapp-URL overview.png)
+![Webapp URL](screenshot/webapp-URL overview.png)
 
 
 ##  What I Learned
